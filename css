@@ -1,0 +1,125 @@
+/* Reset some default browser styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Basic styling for the body */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  margin: 20px;
+  padding: 20px;
+}
+
+/* Header styles */
+h1, h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Style for input sections */
+.input-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.input-section label {
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.input-section input[type="number"],
+.input-section input[type="date"] {
+  padding: 5px;
+  margin-right: 10px;
+}
+
+.input-section button {
+  padding: 5px 10px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* Style for the expenses list */
+.expenses-list {
+  margin: 20px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #4CAF50;
+  color: white;
+}
+
+tfoot td {
+  font-weight: bold;
+}
+
+.delete-btn {
+  padding: 5px 10px;
+  background-color: #f44336;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* Style for the budget and date range sections */
+.budget-section,
+.date-range-section {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.budget-section label,
+.date-range-section label {
+  margin-right: 10px;
+}
+
+.budget-section p {
+  font-weight: bold;
+  margin-left: auto;
+}
+
+/* Style for the category breakdown section */
+.summary-section {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+  margin-top: 20px;
+}
+
+.summary-section h2 {
+  margin-bottom: 10px;
+}
+
+ul#category-summary {
+  list-style: none;
+  padding: 0;
+}
+
+ul#category-summary li {
+  margin-bottom: 5px;
+}
+
+/* Add your additional styles here if needed */
